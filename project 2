@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+int age , year, diff;
+//cout<<"enter age of the candidate";
+//cin>>age;
+cout<<"enter the year of birth in 20__ format";
+cin>>year;
+diff= 2021-year;
+cout<<"you are "<<diff<<" years old"<<endl;
+if(diff>=18)
+cout<<"you are eligible";
+else
+cout<<"you are not eligible";
+//if(age>=18){
+//cout<<"you are eligible";
+//}
+//else
+//cout<<"you are not eligible";
+return 0;
+}
